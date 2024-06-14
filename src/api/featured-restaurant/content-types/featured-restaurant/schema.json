@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "featured_restaurants",
+  "info": {
+    "singularName": "featured-restaurant",
+    "pluralName": "featured-restaurants",
+    "displayName": "Featured Restaurant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "restaurant": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::restaurant.restaurant"
+    }
+  }
+}
